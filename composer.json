@@ -1,0 +1,18 @@
+{
+    "name": "tautiz/kcs17v",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tautvydas",
+            "email": "tautvydas@dulskis.eu"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "KCS\\" : "app/"
+        }
+    }
+}
